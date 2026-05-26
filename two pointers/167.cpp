@@ -9,7 +9,7 @@ public:
         {
             if(a[lo]+a[hi] == b)
             {
-                ans.push_back(lo+1); //since 1 based indexing
+                ans.push_back(lo+1);
                 ans.push_back(hi+1);
             }
             if(a[lo] + a[hi]>b)
