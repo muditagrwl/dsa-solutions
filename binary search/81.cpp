@@ -14,7 +14,7 @@ public:
             if(nums[lo] == nums[mid] && nums[mid] == nums[hi])
             {
                 lo++; hi--;
-                continue;
+                continue;   // if elements are same, we skip them
             }
             if(nums[lo] <= nums[mid])
             {
